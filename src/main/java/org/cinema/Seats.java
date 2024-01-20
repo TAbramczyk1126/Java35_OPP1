@@ -2,7 +2,6 @@ package org.cinema;
 
 public class Seats {
 
-    
     final int number;
     final int row;
     boolean booked;
@@ -11,5 +10,4 @@ public class Seats {
         this.number = number;
         this.row = row;
     }
-
 }

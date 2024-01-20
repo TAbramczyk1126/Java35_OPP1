@@ -1,9 +1,8 @@
 package org.cinema;
 
-public class cinemaHall {
+public class CinemaHall {
 
     public static void main(String[] args) {
-
 
         Seats seats = new Seats(7, 8);
         seats.booked = true;
@@ -16,6 +15,5 @@ public class cinemaHall {
         System.out.println(seats1.number);
         System.out.println(seats1.row);
         System.out.println(seats1.booked);
-
     }
 }
