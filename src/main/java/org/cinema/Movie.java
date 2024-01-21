@@ -7,7 +7,6 @@ public class Movie {
     int duration;
     int year;
 
-
     String movieInfo() {
         return title + " - " + director + " - " + duration + " - " + year;
     }
