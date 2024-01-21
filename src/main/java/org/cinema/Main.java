@@ -1,6 +1,6 @@
 package org.cinema;
 
-public class main {
+public class Main {
 
     public static void main(String[] args) {
 
@@ -8,7 +8,7 @@ public class main {
         System.out.println(manager.introduce());
         System.out.println(manager.salaryManager());
 
-        Manager manager1 = new Manager("Tomasz", "Adamski", 2015, 5000, 500);
+        Manager manager1 = new Manager("Tomasz", "Adams", 2015, 5000, 500);
         System.out.println(manager1.introduce());
         System.out.println(manager1.salaryManager());
 
