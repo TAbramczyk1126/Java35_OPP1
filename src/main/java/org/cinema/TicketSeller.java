@@ -8,6 +8,7 @@ public class TicketSeller extends BaseEmployee {
             this.name = name;
             this.surname = surname;
             this.yearOfEmployment = yearOfEmployment;
+            this.baseSalary = baseSalary;
         } else {
             System.out.println("Wrong base salary, please enter correct base salary and try again.");
         }
