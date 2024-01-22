@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        TicketSeller ticketSeller = new TicketSeller("Anna", "Nowak", 2019, 3000);
+        TicketSeller ticketSeller = new TicketSeller("Anna","Nowak", 2019, 3000);
         System.out.println(ticketSeller.introduce());
 
         Manager manager = new Manager("Jan", "Kowalski", 2015, 5000, 650);
