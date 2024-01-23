@@ -5,9 +5,13 @@ public class BaseEmployee {
     String name;
     String surname;
     int yearOfEmployment;
-
-    int baseSalary;
     int bonus;
+
+    private final int baseSalary;
+
+    public BaseEmployee(int baseSalary) {
+        this.baseSalary = baseSalary;
+    }
 
     int calculateMonthlySalary() {
         return baseSalary + bonus;
@@ -22,4 +26,3 @@ public class BaseEmployee {
                 + " Total monthly salary: " + calculateMonthlySalary() + " PLN.";
     }
 }
-
